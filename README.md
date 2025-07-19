@@ -4,11 +4,13 @@ This repository contains two Python files demonstrating custom implementations o
 
 ## 📂 Files
 
-### 1. `MaxHeap.py`
+### 1. `HeapSort.py`
+- Implements HeapSort on array of elements
+
+### 2. `MaxHeap.py`
 - Implements a **Max Heap** data structure.
 
-
-### 2. `PriorityQueue.py`
+### 3. `PriorityQueue.py`
 - Implements a **Priority Queue** using the `MaxHeap` class..
 - which contain the Task Simulation 
 
@@ -32,7 +34,7 @@ print(heap.extract_max())  # Output: 20
 
 To run the files
 ```bash
-python run MaxHeap.py
+python run HeapSort.py
 
 python run PriorityQueue.py
 ```
